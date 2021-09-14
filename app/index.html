@@ -1,58 +1,192 @@
 ---
-title: Boostrap Index
+title: Blog Index
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+<!-- Swiper -->
+<div class="container text-center">
+    <div class="swiper mySwiper w-100 h-100">
+        <!-- <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./assets/images/Untitled-2.jpg" alt="slide1"></div>
+            <div class="swiper-slide"><img src="./assets/images/Untitled-3.jpg" alt="slide2"></div>
+            <div class="swiper-slide"><img src="./assets/images/DSC03145.jpg" alt="slide3"></div>
+        </div> -->
+        <div class="swiper-pagination"></div>
     </div>
-  </div>
+    <div class="container-lg">
+        <div class="text-center">
+            <div class="d-flex align-items-center justify-content-center">
+                <span class="bg-primary text-white p-2 rounded me-3">餐酒饗宴</span>
+                <p>09/03/21</p>
+            </div>
+            <h2 class="title-l py-3 fw-bolder">台北文華東方</h2>
+            <h3 class="title-x fw-bold pb-7">FineDay x 台北文華東方合作推出獨家限量頂級之旅</h3>
+            <p class="lh-base text-justify">FineDayClub攜手五星服務概念的鹿港永樂酒店，推出結合國寶工藝與在地美食的人文采風饗宴。
+                鹿港永樂酒店位在深厚歷史文化底蘊的鹿港老城區，鄰近龍山寺與九曲巷，是百年鹿港最繁華的古蹟保存區域。榮獲入選為「全球奢華精品酒店」聯盟，在國際規格的豪華旅宿空間裡，漫遊歷史與人文迴廊，享受在地百年風味小吃，帶給您意想不到的「鹿港小鎮」嶄新風貌與魅力。
+            </p>
+            <div class="text-start row px-0 py-10">
+                <div class="border-start border-4 border-secondary">
+                    <p class="lh-lg">
+                        FineDayClub攜手五星服務概念的鹿港永樂酒店，推出結合國寶工藝與在地美食的人文采風饗宴。
+                        鹿港永樂酒店位在深厚歷史文化底蘊的鹿港老城區，鄰近龍山寺與九曲巷，是百年鹿港最繁華的古蹟保存區域。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-lg-flex flex-lg-nowrap overflow-x">
+            <div class="col-12 mb-lg-0 mb-5">
+                <div class="ratio ratio-16x9">
+                    <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" alt="picture" class="">
+                </div>
+            </div>
+            <div class="col-12 mb-lg-0 mb-5">
+                <div class="ratio ratio-16x9">
+                    <img src="./assets/images/【鹿港永樂酒店】十宜客房1.jpg" alt="picture" class="">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="ratio ratio-16x9">
+                    <img src="./assets/images/【鹿港永樂酒店】大廳1 (1).jpg" alt="picture" class="">
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="pt-mb-7 pt-3 title-s fst-italic">FineDayClub攜手五星服務概念的鹿港永樂酒店</p>
+        </div>
+        <div class="text-start pt-10">
+            <h3 class="title-x fw-bold pb-7">推出獨家限量頂級之旅</h3>
+            <p class="lh-lg">FineDayClub攜手五星服務概念的鹿港永樂酒店，推出結合國寶工藝與在地美食的人文采風饗宴。
+                鹿港永樂酒店位在深厚歷史文化底蘊的鹿港老城區，鄰近龍山寺與九曲巷，是百年鹿港最繁華的古蹟保存區域。榮獲入選為「全球奢華精品酒店」聯盟，在國際規格的豪華旅宿空間裡，漫遊歷史與人文迴廊，享受在地百年風味小吃，帶給您意想不到的「鹿港小鎮」嶄新風貌與魅力。
+            </p>
+            <p class="pt-10 pb-3 title fw-bold">延伸閱讀：</p>
+            <a href="#" class="text-decoration-underline pb-2">鹿港永樂酒店位在深厚歷史文化底蘊的鹿港老城區，鄰近龍山寺與九曲巷</a>
+        </div>
+        <div class="text-start pt-10">
+            <h3 class="title-x fw-bold pb-7">推出獨家限量頂級之旅</h3>
+            <p class="lh-lg">FineDayClub攜手五星服務概念的鹿港永樂酒店，推出結合國寶工藝與在地美食的人文采風饗宴。
+                鹿港永樂酒店位在深厚歷史文化底蘊的鹿港老城區，鄰近龍山寺與九曲巷，是百年鹿港最繁華的古蹟保存區域。榮獲入選為「全球奢華精品酒店」聯盟，在國際規格的豪華旅宿空間裡，漫遊歷史與人文迴廊，享受在地百年風味小吃，帶給您意想不到的「鹿港小鎮」嶄新風貌與魅力。
+            </p>
+            <div class="py-10">
+                <div class="ratio ratio-16x9 pb-4">
+                    <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="pt-7 row justify-content-center">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/images/【鹿港永樂酒店】十宜客房1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/images/【鹿港永樂酒店】大廳1 (1).jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="lh-lg">FineDayClub攜手五星服務概念的鹿港永樂酒店，推出結合國寶工藝與在地美食的人文采風饗宴。
+                鹿港永樂酒店位在深厚歷史文化底蘊的鹿港老城區，鄰近龍山寺與九曲巷，是百年鹿港最繁華的古蹟保存區域。榮獲入選為「全球奢華精品酒店」聯盟，在國際規格的豪華旅宿空間裡，漫遊歷史與人文迴廊，享受在地百年風味小吃，帶給您意想不到的「鹿港小鎮」嶄新風貌與魅力。
+            </p>
+            <div class="d-flex align-items-center py-10">
+                <i class="fas fa-tag me-2"></i>
+                <a href="#" class="me-2">#travel</a>
+                <a href="#" class="me-2">#旅遊度假</a>
+                <a href="#" class="me-2">#美食</a>
+                <a href="#">#夏季限定</a>
+            </div>
+            <div class="text-center pb-10">
+                <p class="pb-4">share</p>
+                <div
+                    class="d-flex align-items-center justify-content-center py-5 border-secondary border-2 border-top border-bottom">
+                    <a href="">
+                        <i class="fab fa-facebook fa-2x mx-2"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-instagram fa-2x mx-2"></i>
+                    </a>
+                    <a href="" class="bg-secdonary rounded">
+                        <i class="fas fa-link fa-2x mx-2 "></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-line fa-2x mx-2"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="title-x pb-7 text-center">最新產品</h3>
+            <ul class="row overflow-x flex-nowrap">
+                <li class="col-lg-4 col-md-3">
+                    <a href="https://www.finedayclub.com/Offer/2" class="rounded-3" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100 rounded">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100 rounded">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100 rounded">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100 rounded">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100 rounded">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100 rounded">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100 rounded">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+                <li class="col-lg-4 col-md-3 rounded">
+                    <a href="" class="rounded-3">
+                        <img src="./assets/images/【鹿港永樂酒店】一樓梯廳 (2).jpg" class="w-100 h-100 rounded">
+                    </a>
+                    <p class="title mt-2 mb-2">鹿港采風在地人文嶄新體驗</p>
+                    <p>兩天一夜鹿港風采在地人文嶄新體驗</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 </div>

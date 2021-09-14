@@ -1,0 +1,49 @@
+.text-justify {
+    text-align: justify;
+}
+.overflow-x {
+    overflow-x: scroll;
+}
+.opacity {
+    opacity: 0.2;
+}
+.bg-opacity {
+    background: $info;
+    opacity: 0.5;
+}
+// 字型
+.title-l {
+    font-size: 36px;
+    line-height: 54px;
+    @include X-mobile {
+        font-size: 28px;
+        line-height: 42px;
+    }
+}
+.title-x {
+    font-size: 24px;
+    line-height: 32px;
+}
+.title {
+    font-size: 20px;
+    line-height: 30px;
+}
+.title-s {
+    font-size: 14px;
+    line-height: 21px;
+}
+.sticky-bar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-50%);
+    z-index: 1000;
+    @include Ipad {
+        display: none;
+    }
+}
+
+// <i class="fab fa-facebook"></i>
+// <i class="fab fa-instagram"></i>
+// <i class="fab fa-line"></i>
